@@ -8,8 +8,8 @@ def is_armstrong_number(number):
 
     '''
     arm_num = 0
-    for n in enumerate(str(153)):
-        num = int(n[1])**(len(str(153)))
+    for n in enumerate(str(number)):
+        num = int(n[1])**(len(str(number)))
         arm_num = arm_num + num
         print(arm_num)
 
