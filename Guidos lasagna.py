@@ -18,6 +18,7 @@ def bake_time_remaining(elapsed_bake_time):
     based on the `EXPECTED_BAKE_TIME`.
     """
     return EXPECTED_BAKE_TIME - elapsed_bake_time
+
 # You might also consider using 'PREPARATION_TIME' here, if you have it defined.
 def preparation_time_in_minutes(number_of_layers):
     """Calculate the preparation time in minutes.
